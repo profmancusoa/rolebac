@@ -1,0 +1,39 @@
+{
+  "name": "roleback",
+  "version": "1.0.0-rc0",
+  "description": "Simple yet effetive RBAC (Role Based Access Control) system for Javascript projects. It does not depend on any Framework or any library.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "readme": "README.md",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "pretest": "npm run build",
+    "test": "jest",
+    "prepublish": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/profmancusoa/rolebac.git"
+  },
+  "keywords": [
+    "rbac"
+  ],
+  "author": "profmancusoa",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/profmancusoa/rolebac/issues"
+  },
+  "homepage": "https://github.com/profmancusoa/rolebac#readme",
+  "files": [
+    "lib/**/*"
+  ],
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.3"
+  }
+}

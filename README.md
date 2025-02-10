@@ -1,2 +1,5 @@
 # rolebac
-Simple yet effective RBAC system for your JS project
+
+Simple yet effetive RBAC (Role Based Access Control) system for Javascript projects. It does not depend on any Framework or any library.
+
+PLACEHOLDER
