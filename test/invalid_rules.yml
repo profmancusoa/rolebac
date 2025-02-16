@@ -1,0 +1,17 @@
+---
+# This is a comment
+
+resource1:
+  action1:
+    - role1
+    - role2
+  action2:
+    - role1
+    - role3
+  
+resource2:
+  action1:
+  action2:
+    - role1
+    - role2
+    - role3

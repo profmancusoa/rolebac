@@ -1,6 +1,6 @@
 {
-  "name": "roleback",
-  "version": "1.0.0-rc0",
+  "name": "rolebac",
+  "version": "1.0.0",
   "description": "Simple yet effetive RBAC (Role Based Access Control) system for Javascript projects. It does not depend on any Framework or any library.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -30,8 +30,10 @@
   ],
   "devDependencies": {
     "@types/jest": "^29.5.14",
+    "@types/js-yaml": "^4.0.9",
     "@types/node": "^22.13.1",
     "jest": "^29.7.0",
+    "js-yaml": "^4.1.0",
     "ts-jest": "^29.2.5",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.7.3"

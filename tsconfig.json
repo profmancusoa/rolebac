@@ -10,7 +10,8 @@
     "strict": true,
     "esModuleInterop": true,
     "removeComments": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    // "noImplicitAny": false
   },
   "include": ["src/**/*"],
   "exclude": [
